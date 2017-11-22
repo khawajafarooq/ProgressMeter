@@ -4,22 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
 [![Platform](https://img.shields.io/cocoapods/p/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
 
-## Requirements
-
-| Support | Version |
-| --- | --- |
-| iOS | 9.0 |
-| Swift | 4.0 |
-
-
-## Installation
-
-ProgressMeter is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'ProgressMeter'
-```
+## Description
+ProgressMeter displays the progress in a meter with the custom annotations. So, it's not only the progress bar with its usual functionality, but also gives the better visual when chasing a target. 💯
 
 ## Use Cases
 
@@ -36,17 +22,24 @@ Talking about financial apps. We all 've come across with such situation to show
 
 ### Interface Builder
 
+Guess what? You can do that all in design time without writing a single line of code.
 Drag & drop a UIView from the object library and follow the steps:
 
 **Step 1**
-
+Set the Class & Module ** Identity Inspector > Custom Class **
 <p align="left"><img src ="screens/ib_step1.png" width="300px"/></p>
 
 **Step 2**
+Under ** Attribute Inspector ** you can change the properties and check everything on the fly 🚀
+
+* maxValue: Maximum value of the meter
+* progress: Current progress of meter
+* numberOfDivisions: How many divisions you want to display
+* Rest are pretty much self explanatory
 
 <p align="left"><img src ="screens/ib_step2.png" width="300px"/></p>
 
-### Code
+### Code 👨‍💻
 
 Hook your view (ProgressMeter) property on your view controller and try out the snippets inside **viewDidLoad**;
 
@@ -81,13 +74,31 @@ func visualSetup() {
     progressControl.dividerColor = .darkGray
 }
 ```
+## Installation
 
-## Issues
+ProgressMeter is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'ProgressMeter'
+```
+
+## Requirements
+
+| Support | Version |
+| --- | --- |
+| iOS | 9.0 |
+| Swift | 4.0 |
+
+## Up Coming Features 🎏
+- [ ] Annotations on bottom; Currenty annotations can only display on the top of ProgressMeter
+- [ ] Carthage support
+- [ ] Enable everything for MAC
+
+
+## Issues 🚫
 - [ ] Some tweakings required to use ProgressMeter inside a Stack View
 
-## Up Coming Features
-- [ ] Annotations on bottom; Currenty annotations can only display on the top of ProgressMeter
-- [ ] Support for MAC
 
 ## Author 🙏🏻
 **Web**: [Khawaja Farooq](http://khawajafarooq.github.io)
