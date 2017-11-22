@@ -24,7 +24,7 @@ pod 'ProgressMeter'
 ## Use Cases
 
 ### Health App 🏃‍♂️
-Building a pedometer have never been easier. If you are looking for something other than a gauge control. Just have a look 🤓
+Building a pedometer has never been easier. If you are looking for something other than a gauge control. Just have a look 🤓
 <p align="center"><img src ="screens/steps_example.png" width="300px"/></p>
 
 
@@ -83,10 +83,11 @@ func visualSetup() {
 ```
 
 ## Issues
-- [x] Some tweakings required to use ProgressMeter inside a Stack View
+- [ ] Some tweakings required to use ProgressMeter inside a Stack View
 
 ## Up Coming Features
-- [x] Annotations on bottom; Currenty annotations can only display on the top of ProgressMeter
+- [ ] Annotations on bottom; Currenty annotations can only display on the top of ProgressMeter
+- [ ] Support for MAC
 
 ## Author 🙏🏻
 **Web**: [Khawaja Farooq](http://khawajafarooq.github.io)
