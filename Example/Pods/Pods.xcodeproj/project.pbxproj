@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022CB0949DAB0F2DC086730E9DDF14DD /* ProgressMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C7C6A3AD23B4022DF5910434B5C710 /* ProgressMeter-dummy.m */; };
+		15DD568A2881BF177CA8A18DB79D36F2 /* Pods-ProgressMeter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9796610458E4E41E80BA7C4436DFD9 /* Pods-ProgressMeter_Tests-dummy.m */; };
+		3E7F87E38976EB5F145DD97BA6794973 /* ProgressMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12342A11CC5AB3F119765B14CCEE4A55 /* ProgressMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55DD1918B90B16F2B4E6B6465B5758BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		93178C761BA16C8B0202E536E05AB615 /* ProgressAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483F172AB4CC3CB870DCB443D58421A9 /* ProgressAnnotation.swift */; };
+		ACCD2FA4DF26960C93B8FB6C3783821F /* ProgressMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680754824BBA36AEB8FE87D689E64337 /* ProgressMeter.swift */; };
+		BDBEDCB58676B5E59CC32EF6CF6A8E03 /* Pods-ProgressMeter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 726D4B702EF8A49EAB4BF7FA8E0E8771 /* Pods-ProgressMeter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF730C4ABFB1E9F0955E0FFD1B6B2303 /* Pods-ProgressMeter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7DF2DA74C78BE78F99288DC5E7E214 /* Pods-ProgressMeter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC2986D8FA62C823D321541B483C0AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E9D69BCB4917B54B4AC9D178C0EC3B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF4E675A9C0A9A5AB34BAA2F7D676B82 /* Pods-ProgressMeter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EA6636B7C168FD8FE1AB7D327D4344 /* Pods-ProgressMeter_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDD5F7B484269EA5BEBE88F84FB44C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4566E4747EE10665ACD5F68F504CAED;
+			remoteInfo = ProgressMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03457DE60508BA207534A8A10644AB92 /* Pods-ProgressMeter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressMeter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		07E8207AF3AF1ABB7EE44C6A3486130B /* Pods-ProgressMeter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProgressMeter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12342A11CC5AB3F119765B14CCEE4A55 /* ProgressMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressMeter-umbrella.h"; sourceTree = "<group>"; };
+		12EA6636B7C168FD8FE1AB7D327D4344 /* Pods-ProgressMeter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProgressMeter_Example-dummy.m"; sourceTree = "<group>"; };
+		20549F417865E53268AB4B798AB1CF92 /* Pods_ProgressMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProgressMeter_Example.framework; path = "Pods-ProgressMeter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2A1992178A890BE2CD9767ABED65AA /* ProgressMeter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressMeter.xcconfig; sourceTree = "<group>"; };
+		32C7C6A3AD23B4022DF5910434B5C710 /* ProgressMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressMeter-dummy.m"; sourceTree = "<group>"; };
+		394B8430ED114B6F56DEEB3DC2A20F31 /* Pods-ProgressMeter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ProgressMeter_Tests.modulemap"; sourceTree = "<group>"; };
+		483F172AB4CC3CB870DCB443D58421A9 /* ProgressAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressAnnotation.swift; path = ProgressMeter/Classes/ProgressAnnotation.swift; sourceTree = "<group>"; };
+		4E8218187ACED0D28B25B5859C444FCE /* Pods-ProgressMeter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProgressMeter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FDB67F761DE411C85A6A1319651B6E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569E942F059979F540374F8DAF8968FC /* ProgressMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressMeter.framework; path = ProgressMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		585599D19F49CE94F7C50EEEE23CCA26 /* Pods-ProgressMeter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProgressMeter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		62D71ACBB8D646094C27CC2906776D09 /* Pods-ProgressMeter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProgressMeter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6468921F1A5BB8667B8F3D2FE047BA15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		680754824BBA36AEB8FE87D689E64337 /* ProgressMeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressMeter.swift; path = ProgressMeter/Classes/ProgressMeter.swift; sourceTree = "<group>"; };
+		6F9E700D475136EB28E9E28DC7FE443A /* Pods_ProgressMeter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProgressMeter_Tests.framework; path = "Pods-ProgressMeter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		726D4B702EF8A49EAB4BF7FA8E0E8771 /* Pods-ProgressMeter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProgressMeter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7D9796610458E4E41E80BA7C4436DFD9 /* Pods-ProgressMeter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProgressMeter_Tests-dummy.m"; sourceTree = "<group>"; };
+		90F8A71914D39CD41640CA51F553D620 /* Pods-ProgressMeter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ProgressMeter_Example.modulemap"; sourceTree = "<group>"; };
+		9210151A1876DFDB6507A4DDB296EFA6 /* ProgressMeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressMeter-prefix.pch"; sourceTree = "<group>"; };
+		93934E462053800035B1D23C474DE1E2 /* Pods-ProgressMeter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressMeter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A4ACA10DF0A2B98964A5EA47D7D98B /* Pods-ProgressMeter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProgressMeter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AD27BE42809B2304AD9E02D13918B663 /* Pods-ProgressMeter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressMeter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC36157E1098DB9A31219AE22F5E0850 /* ProgressMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ProgressMeter.modulemap; sourceTree = "<group>"; };
+		C25C03C84D420AA1574A99C86421F42D /* Pods-ProgressMeter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressMeter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DA7DF2DA74C78BE78F99288DC5E7E214 /* Pods-ProgressMeter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProgressMeter_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF843D69B0EEAB90A52EB554E41B0AD7 /* Pods-ProgressMeter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProgressMeter_Example-resources.sh"; sourceTree = "<group>"; };
+		F04A56440DCEB18A13BFD456CAF76575 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BA669D965B4789BF2A169F5BDF7E2E /* Pods-ProgressMeter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProgressMeter_Tests-resources.sh"; sourceTree = "<group>"; };
+		FD79E869B60843C6F2807E09C34BF2E1 /* Pods-ProgressMeter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProgressMeter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BE9F80FB9348825A3CA00AA4F63D3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DD1918B90B16F2B4E6B6465B5758BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B66156ABFF32E1971FA4E3FD45C5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2986D8FA62C823D321541B483C0AE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EE7BEAAA2DB5F3C8533C2B597BB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D69BCB4917B54B4AC9D178C0EC3B3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C5B73DFB9961A247ECD594931CBD51 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D57EE3B2D918E912A0EA99D75D12B22D /* ProgressMeter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5A89013BF3A060F3B1837EEDE2ADFB0D /* Pods-ProgressMeter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB67F761DE411C85A6A1319651B6E8 /* Info.plist */,
+				90F8A71914D39CD41640CA51F553D620 /* Pods-ProgressMeter_Example.modulemap */,
+				FD79E869B60843C6F2807E09C34BF2E1 /* Pods-ProgressMeter_Example-acknowledgements.markdown */,
+				585599D19F49CE94F7C50EEEE23CCA26 /* Pods-ProgressMeter_Example-acknowledgements.plist */,
+				12EA6636B7C168FD8FE1AB7D327D4344 /* Pods-ProgressMeter_Example-dummy.m */,
+				A0A4ACA10DF0A2B98964A5EA47D7D98B /* Pods-ProgressMeter_Example-frameworks.sh */,
+				DF843D69B0EEAB90A52EB554E41B0AD7 /* Pods-ProgressMeter_Example-resources.sh */,
+				DA7DF2DA74C78BE78F99288DC5E7E214 /* Pods-ProgressMeter_Example-umbrella.h */,
+				AD27BE42809B2304AD9E02D13918B663 /* Pods-ProgressMeter_Example.debug.xcconfig */,
+				93934E462053800035B1D23C474DE1E2 /* Pods-ProgressMeter_Example.release.xcconfig */,
+			);
+			name = "Pods-ProgressMeter_Example";
+			path = "Target Support Files/Pods-ProgressMeter_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				43C5B73DFB9961A247ECD594931CBD51 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8F12C444FF284B669D818D4301DD6595 /* Products */,
+				BA31B107082A0E251165529465BF2097 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F12C444FF284B669D818D4301DD6595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20549F417865E53268AB4B798AB1CF92 /* Pods_ProgressMeter_Example.framework */,
+				6F9E700D475136EB28E9E28DC7FE443A /* Pods_ProgressMeter_Tests.framework */,
+				569E942F059979F540374F8DAF8968FC /* ProgressMeter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9CFE0C015A399F1CF05A092FFF2C52 /* Pods-ProgressMeter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F04A56440DCEB18A13BFD456CAF76575 /* Info.plist */,
+				394B8430ED114B6F56DEEB3DC2A20F31 /* Pods-ProgressMeter_Tests.modulemap */,
+				4E8218187ACED0D28B25B5859C444FCE /* Pods-ProgressMeter_Tests-acknowledgements.markdown */,
+				07E8207AF3AF1ABB7EE44C6A3486130B /* Pods-ProgressMeter_Tests-acknowledgements.plist */,
+				7D9796610458E4E41E80BA7C4436DFD9 /* Pods-ProgressMeter_Tests-dummy.m */,
+				62D71ACBB8D646094C27CC2906776D09 /* Pods-ProgressMeter_Tests-frameworks.sh */,
+				F6BA669D965B4789BF2A169F5BDF7E2E /* Pods-ProgressMeter_Tests-resources.sh */,
+				726D4B702EF8A49EAB4BF7FA8E0E8771 /* Pods-ProgressMeter_Tests-umbrella.h */,
+				03457DE60508BA207534A8A10644AB92 /* Pods-ProgressMeter_Tests.debug.xcconfig */,
+				C25C03C84D420AA1574A99C86421F42D /* Pods-ProgressMeter_Tests.release.xcconfig */,
+			);
+			name = "Pods-ProgressMeter_Tests";
+			path = "Target Support Files/Pods-ProgressMeter_Tests";
+			sourceTree = "<group>";
+		};
+		BA31B107082A0E251165529465BF2097 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A89013BF3A060F3B1837EEDE2ADFB0D /* Pods-ProgressMeter_Example */,
+				AB9CFE0C015A399F1CF05A092FFF2C52 /* Pods-ProgressMeter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D57EE3B2D918E912A0EA99D75D12B22D /* ProgressMeter */ = {
+			isa = PBXGroup;
+			children = (
+				483F172AB4CC3CB870DCB443D58421A9 /* ProgressAnnotation.swift */,
+				680754824BBA36AEB8FE87D689E64337 /* ProgressMeter.swift */,
+				ECBAE0F60ADD35B9AF24AEC089085185 /* Support Files */,
+			);
+			name = ProgressMeter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ECBAE0F60ADD35B9AF24AEC089085185 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6468921F1A5BB8667B8F3D2FE047BA15 /* Info.plist */,
+				BC36157E1098DB9A31219AE22F5E0850 /* ProgressMeter.modulemap */,
+				2D2A1992178A890BE2CD9767ABED65AA /* ProgressMeter.xcconfig */,
+				32C7C6A3AD23B4022DF5910434B5C710 /* ProgressMeter-dummy.m */,
+				9210151A1876DFDB6507A4DDB296EFA6 /* ProgressMeter-prefix.pch */,
+				12342A11CC5AB3F119765B14CCEE4A55 /* ProgressMeter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ProgressMeter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22EAE31FA3060B2A6BDB57F0393D44E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF730C4ABFB1E9F0955E0FFD1B6B2303 /* Pods-ProgressMeter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553E225BA43B9D487550AD539CF9CDE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBEDCB58676B5E59CC32EF6CF6A8E03 /* Pods-ProgressMeter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFD71E7BF515F0B7659068BFA18F142 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7F87E38976EB5F145DD97BA6794973 /* ProgressMeter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AD5402B5B1BC6360B91D661B57F6000 /* Pods-ProgressMeter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1C61017792B0F6563013E2C563E021 /* Build configuration list for PBXNativeTarget "Pods-ProgressMeter_Example" */;
+			buildPhases = (
+				4DE596D9572D3601BBADC0D252F4AD12 /* Sources */,
+				64B66156ABFF32E1971FA4E3FD45C5F4 /* Frameworks */,
+				22EAE31FA3060B2A6BDB57F0393D44E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00C23FE79BC13313445BDAFBE0EA5109 /* PBXTargetDependency */,
+			);
+			name = "Pods-ProgressMeter_Example";
+			productName = "Pods-ProgressMeter_Example";
+			productReference = 20549F417865E53268AB4B798AB1CF92 /* Pods_ProgressMeter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51833D1BAB2216C82F9E6E3530EB7C99 /* Pods-ProgressMeter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43933DFBD45B3C5947934D8A021B9220 /* Build configuration list for PBXNativeTarget "Pods-ProgressMeter_Tests" */;
+			buildPhases = (
+				08DF9F6264515830F3D1307645409160 /* Sources */,
+				EA8EE7BEAAA2DB5F3C8533C2B597BB7E /* Frameworks */,
+				553E225BA43B9D487550AD539CF9CDE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ProgressMeter_Tests";
+			productName = "Pods-ProgressMeter_Tests";
+			productReference = 6F9E700D475136EB28E9E28DC7FE443A /* Pods_ProgressMeter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4566E4747EE10665ACD5F68F504CAED /* ProgressMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49267863A27A94394698DF8100D642C8 /* Build configuration list for PBXNativeTarget "ProgressMeter" */;
+			buildPhases = (
+				5B408F65048057E9A0C025B027CD4875 /* Sources */,
+				1BE9F80FB9348825A3CA00AA4F63D3D1 /* Frameworks */,
+				6EFD71E7BF515F0B7659068BFA18F142 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressMeter;
+			productName = ProgressMeter;
+			productReference = 569E942F059979F540374F8DAF8968FC /* ProgressMeter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F12C444FF284B669D818D4301DD6595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AD5402B5B1BC6360B91D661B57F6000 /* Pods-ProgressMeter_Example */,
+				51833D1BAB2216C82F9E6E3530EB7C99 /* Pods-ProgressMeter_Tests */,
+				B4566E4747EE10665ACD5F68F504CAED /* ProgressMeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08DF9F6264515830F3D1307645409160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DD568A2881BF177CA8A18DB79D36F2 /* Pods-ProgressMeter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE596D9572D3601BBADC0D252F4AD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4E675A9C0A9A5AB34BAA2F7D676B82 /* Pods-ProgressMeter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B408F65048057E9A0C025B027CD4875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93178C761BA16C8B0202E536E05AB615 /* ProgressAnnotation.swift in Sources */,
+				022CB0949DAB0F2DC086730E9DDF14DD /* ProgressMeter-dummy.m in Sources */,
+				ACCD2FA4DF26960C93B8FB6C3783821F /* ProgressMeter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00C23FE79BC13313445BDAFBE0EA5109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProgressMeter;
+			target = B4566E4747EE10665ACD5F68F504CAED /* ProgressMeter */;
+			targetProxy = CDD5F7B484269EA5BEBE88F84FB44C9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A6222F768032BCFE2F6FADD34CF0230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD27BE42809B2304AD9E02D13918B663 /* Pods-ProgressMeter_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProgressMeter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProgressMeter_Example/Pods-ProgressMeter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProgressMeter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		502CD14360038605FE5D1BFA6C7E0523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2A1992178A890BE2CD9767ABED65AA /* ProgressMeter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressMeter/ProgressMeter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressMeter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ProgressMeter/ProgressMeter.modulemap";
+				PRODUCT_NAME = ProgressMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		84D84D8CDD9C3661CE0AD233456D4CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25C03C84D420AA1574A99C86421F42D /* Pods-ProgressMeter_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProgressMeter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProgressMeter_Tests/Pods-ProgressMeter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProgressMeter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0313421744822096744DAD47FE3A136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93934E462053800035B1D23C474DE1E2 /* Pods-ProgressMeter_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProgressMeter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProgressMeter_Example/Pods-ProgressMeter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProgressMeter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E50E9908B92A5D9FDF9A69708DD53193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03457DE60508BA207534A8A10644AB92 /* Pods-ProgressMeter_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProgressMeter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProgressMeter_Tests/Pods-ProgressMeter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProgressMeter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC1E493A0C72981D2DADB977162BAEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2A1992178A890BE2CD9767ABED65AA /* ProgressMeter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressMeter/ProgressMeter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressMeter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ProgressMeter/ProgressMeter.modulemap";
+				PRODUCT_NAME = ProgressMeter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1C61017792B0F6563013E2C563E021 /* Build configuration list for PBXNativeTarget "Pods-ProgressMeter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6222F768032BCFE2F6FADD34CF0230 /* Debug */,
+				C0313421744822096744DAD47FE3A136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43933DFBD45B3C5947934D8A021B9220 /* Build configuration list for PBXNativeTarget "Pods-ProgressMeter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50E9908B92A5D9FDF9A69708DD53193 /* Debug */,
+				84D84D8CDD9C3661CE0AD233456D4CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49267863A27A94394698DF8100D642C8 /* Build configuration list for PBXNativeTarget "ProgressMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1E493A0C72981D2DADB977162BAEE2 /* Debug */,
+				502CD14360038605FE5D1BFA6C7E0523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

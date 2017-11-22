@@ -1,25 +1,170 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dvx-vZ-UPM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="dOm-ZJ-tm7">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                <viewController id="Dvx-vZ-UPM" customClass="ViewController" customModule="ProgressMeter_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZSb-I2-CbS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2sF-Az-hIl" customClass="ProgressMeter" customModule="ProgressMeter">
+                                <rect key="frame" x="16" y="431" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xux-ua-xpY"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.59999999999999998"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="progressTintColor">
+                                        <color key="value" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackTintColor">
+                                        <color key="value" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="annotationTextColor">
+                                        <color key="value" red="0.41587056189999999" green="0.75989926399999996" blue="0.90482421869999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfDivisions">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                                        <real key="value" value="300"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
+                                        <color key="value" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monthly Cash Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahK-kS-h9m">
+                                <rect key="frame" x="91" y="374" width="194" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" red="0.41587056189999999" green="0.75989926399999996" blue="0.90482421869999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currency-blue" translatesAutoresizingMaskIntoConstraints="NO" id="gB4-hq-Xxf">
+                                <rect key="frame" x="122.66666666666669" y="214" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="cIV-b5-Ffa"/>
+                                    <constraint firstAttribute="width" constant="130" id="lIh-a6-84D"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ahK-kS-h9m" firstAttribute="top" secondItem="gB4-hq-Xxf" secondAttribute="bottom" constant="30" id="Iyp-O3-uoa"/>
+                            <constraint firstItem="4xH-Kc-ePh" firstAttribute="trailing" secondItem="2sF-Az-hIl" secondAttribute="trailing" constant="16" id="Knj-8e-bCj"/>
+                            <constraint firstItem="2sF-Az-hIl" firstAttribute="leading" secondItem="4xH-Kc-ePh" secondAttribute="leading" constant="16" id="RhC-gO-mPK"/>
+                            <constraint firstItem="gB4-hq-Xxf" firstAttribute="centerX" secondItem="ZSb-I2-CbS" secondAttribute="centerX" id="SZZ-tR-C1q"/>
+                            <constraint firstItem="ahK-kS-h9m" firstAttribute="centerX" secondItem="ZSb-I2-CbS" secondAttribute="centerX" id="Zad-hM-vg2"/>
+                            <constraint firstItem="2sF-Az-hIl" firstAttribute="top" secondItem="ahK-kS-h9m" secondAttribute="bottom" constant="30" id="hUy-Jb-AVa"/>
+                            <constraint firstItem="gB4-hq-Xxf" firstAttribute="top" secondItem="4xH-Kc-ePh" secondAttribute="top" constant="170" id="wUc-fC-PTj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4xH-Kc-ePh"/>
                     </view>
+                    <connections>
+                        <outlet property="progressControl" destination="2sF-Az-hIl" id="f6K-Pk-bcS"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qn3-Ej-kuz" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="905" y="64"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QY8-Pd-jql">
+            <objects>
+                <viewController id="nHC-nL-cUk" customClass="ViewController" customModule="ProgressMeter_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GeW-ag-sXE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cLH-Ke-pcb" customClass="ProgressMeter" customModule="ProgressMeter">
+                                <rect key="frame" x="16" y="430.33333333333331" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kcZ-KG-hdg"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.59999999999999998"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="progressTintColor">
+                                        <color key="value" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackTintColor">
+                                        <color key="value" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.69414062499999996" green="0.34284664390000003" blue="0.32997272350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="annotationTextColor">
+                                        <color key="value" red="0.69414062499999996" green="0.34284664390000003" blue="0.32997272350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfDivisions">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                                        <real key="value" value="10000"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
+                                        <color key="value" red="0.69414062499999996" green="0.34284664390000003" blue="0.32997272350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Steps Goal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Jl-m2-i5c">
+                                <rect key="frame" x="106" y="374" width="164" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="steps" translatesAutoresizingMaskIntoConstraints="NO" id="1Wx-z7-v62">
+                                <rect key="frame" x="67" y="174" width="240" height="170"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cLH-Ke-pcb" firstAttribute="leading" secondItem="NiO-Z1-NiU" secondAttribute="leading" constant="16" id="2Uv-yJ-S40"/>
+                            <constraint firstItem="NiO-Z1-NiU" firstAttribute="trailing" secondItem="cLH-Ke-pcb" secondAttribute="trailing" constant="16" id="5ve-2u-0bv"/>
+                            <constraint firstItem="NiO-Z1-NiU" firstAttribute="trailing" secondItem="1Wx-z7-v62" secondAttribute="trailing" constant="68" id="750-HM-BR4"/>
+                            <constraint firstItem="5Jl-m2-i5c" firstAttribute="top" secondItem="1Wx-z7-v62" secondAttribute="bottom" constant="30" id="SIf-EW-fgp"/>
+                            <constraint firstItem="1Wx-z7-v62" firstAttribute="leading" secondItem="NiO-Z1-NiU" secondAttribute="leading" constant="67" id="XYY-WX-6dc"/>
+                            <constraint firstItem="5Jl-m2-i5c" firstAttribute="leading" secondItem="NiO-Z1-NiU" secondAttribute="leading" constant="106" id="fcZ-Zt-jif"/>
+                            <constraint firstItem="NiO-Z1-NiU" firstAttribute="trailing" secondItem="5Jl-m2-i5c" secondAttribute="trailing" constant="105" id="n5l-RO-Dpy"/>
+                            <constraint firstItem="1Wx-z7-v62" firstAttribute="top" secondItem="NiO-Z1-NiU" secondAttribute="top" constant="130" id="sMy-Zs-3PB"/>
+                            <constraint firstItem="cLH-Ke-pcb" firstAttribute="top" secondItem="5Jl-m2-i5c" secondAttribute="bottom" constant="30" id="ynO-Yb-GZN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NiO-Z1-NiU"/>
+                    </view>
+                    <connections>
+                        <outlet property="progressControl" destination="cLH-Ke-pcb" id="JZh-hZ-mU2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfU-Ud-EqY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="156" y="64"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="currency-blue" width="170" height="170"/>
+        <image name="steps" width="170" height="170"/>
+    </resources>
 </document>

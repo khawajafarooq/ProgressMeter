@@ -1,0 +1,16 @@
+PODS:
+  - ProgressMeter (0.1.0)
+
+DEPENDENCIES:
+  - ProgressMeter (from `../`)
+
+EXTERNAL SOURCES:
+  ProgressMeter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ProgressMeter: 3f626f08ff3ad07f8f0523383abdd032d4fc2c04
+
+PODFILE CHECKSUM: b58866ecee51a57da2be284ca9f543248ea15281
+
+COCOAPODS: 1.3.1
