@@ -26,11 +26,11 @@ Guess what? You can do that all in design time without writing a single line of 
 Drag & drop a UIView from the object library and follow the steps:
 
 **Step 1**
-Set the Class & Module ** Identity Inspector > Custom Class **
+Set the Class & Module **Identity Inspector > Custom Class**
 <p align="left"><img src ="screens/ib_step1.png" width="300px"/></p>
 
 **Step 2**
-Under ** Attribute Inspector ** you can change the properties and check everything on the fly 🚀
+Under **Attribute Inspector** you can change the properties and check everything on the fly 🚀
 
 * maxValue: Maximum value of the meter
 * progress: Current progress of meter
