@@ -9,7 +9,7 @@ ProgressMeter displays the progress in a meter with the custom annotations. So, 
 
 ## Use Cases
 
-### Health App 🏃‍♂️
+### Fitness App 🏃‍♂️
 Building a pedometer has never been easier. If you are looking for something other than a gauge control. Just have a look 🤓
 <p align="center"><img src ="screens/steps_example.png" width="300px"/></p>
 
