@@ -1,5 +1,6 @@
 # ProgressMeter 🎰
 [![CI Status](https://travis-ci.org/khawajafarooq/ProgressMeter.svg?style=svg)](https://travis-ci.org/khawajafarooq/ProgressMeter)
+[![Swift 4.0](https://img.shields.io/badge/swift-4.0-red.svg?style=flat)](https://developer.apple.com/swift)
 [![Version](https://img.shields.io/cocoapods/v/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
 [![License](https://img.shields.io/cocoapods/l/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
 [![Platform](https://img.shields.io/cocoapods/p/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
