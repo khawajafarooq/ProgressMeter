@@ -25,11 +25,11 @@ Talking about financial apps. We all 've come across with such situation to show
 Guess what? You can do that all in design time without writing a single line of code.
 Drag & drop a UIView from the object library and follow the steps:
 
-**Step 1**
+**Step 1:**
 Set the Class & Module **Identity Inspector > Custom Class**
 <p align="left"><img src ="screens/ib_step1.png" width="300px"/></p>
 
-**Step 2**
+**Step 2:**
 Under **Attribute Inspector** you can change the properties and check everything on the fly 🚀
 
 * maxValue: Maximum value of the meter
@@ -53,7 +53,7 @@ func setupWithCustomData() {
 }
 ```
 
-**Snippet # 2:** Don't have the data set? ProgressMeter can create its own data 🔢
+**Snippet # 2:** Don't have the data set? `ProgressMeter` can create its own data 🔢
 
 ```swift
 func setupWithControlData() {
@@ -76,7 +76,7 @@ func visualSetup() {
 ```
 ## Installation
 
-ProgressMeter is available through [CocoaPods](http://cocoapods.org). To install
+`ProgressMeter` is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -91,13 +91,13 @@ pod 'ProgressMeter'
 | Swift | 4.0 |
 
 ## Up Coming Features 🎏
-- [ ] Annotations on bottom; Currenty annotations can only display on the top of ProgressMeter
+- [ ] Annotations on the bottom; Currenty annotations can only display on the top
 - [ ] Carthage support
 - [ ] Enable everything for MAC
 
 
 ## Issues 🚫
-- [ ] Some tweakings required to use ProgressMeter inside a Stack View
+- [ ] Some tweakings required to use `ProgressMeter` inside a Stack View
 
 
 ## Author 🙏🏻

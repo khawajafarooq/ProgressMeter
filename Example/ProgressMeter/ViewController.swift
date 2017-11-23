@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        setupWithControlData()
+        setupWithCustomData()
         visualSetup()
     }
     
@@ -34,9 +34,13 @@ class ViewController: UIViewController {
      progress: current progress of meter
      */
     func setupWithCustomData() {
-        progressControl.maxValue = 20000
-        progressControl.data = [1999, 4999, 9999, 14999]
-        progressControl.progress = 14999 / 20000
+//        progressControl.maxValue = 20000
+//        progressControl.data = [1999, 4999, 9999, 14999, 20000]
+//        progressControl.progress = 14999 / 20000
+        
+        progressControl.maxValue = 100
+        progressControl.data = [5, 15, 30, 45, 60, 75, 96]
+        progressControl.progress = 60 / 100
     }
     
     /*
