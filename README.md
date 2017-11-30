@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
 
 ## Description
-Displaying the progress in a meter like control. `ProgressMeter` lets you create your custom annotations that displays above meter. So, it's not just an ordinary progress bar, it gives the better visual when chasing a target. 💯
+Displaying the progress in a meter like control. `ProgressMeter` lets you create your custom annotations that display above the meter. So, it's not just an ordinary progress bar, it gives the better visual when chasing a target. 💯
 
 ## Use Cases
 
@@ -92,10 +92,8 @@ pod 'ProgressMeter'
 | Swift | 4.0 |
 
 ## Up Coming Features 🎏
-- [ ] Annotations on the bottom; Currenty annotations can only display on the top
 - [ ] Carthage support
-- [ ] Enable everything for MAC
-
+- [ ] Annotations on the bottom; Currenty annotations can only display on the top
 
 ## Issues 🚫
 - [ ] Some tweakings required to use `ProgressMeter` inside a Stack View
@@ -111,4 +109,4 @@ pod 'ProgressMeter'
 
 ## License
 
-ProgressMeter is available under the MIT license. See the LICENSE file for more info.
+`ProgressMeter` is available under the MIT license. See the LICENSE file for more info.
