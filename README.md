@@ -78,12 +78,25 @@ func visualSetup() {
 ```
 ## Installation
 
+### CocoaPods
 `ProgressMeter` is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'ProgressMeter'
 ```
+
+
+### Carthage
+To integrate `ProgressMeter` into your Xcode project using Carthage, specify the following in your `Cartfile`:
+
+```ogdl
+github "khawajafarooq/ProgressMeter"
+```
+
+Run `carthage update` to build the framework and drag the built `ProgressMeter.framework` into your Xcode project.
+
+---
 
 ## Requirements
 
@@ -93,7 +106,7 @@ pod 'ProgressMeter'
 | Swift | 4.0 |
 
 ## Up Coming Features 🎏
-- [ ] Carthage support
+- [x] Carthage support
 - [ ] Annotations on the bottom; Currenty annotations can only display on the top
 
 ## Issues 🚫
