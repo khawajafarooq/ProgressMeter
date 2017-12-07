@@ -96,6 +96,9 @@ import UIKit
     /// set number of division color
     @IBInspectable public var numberOfDivisions: Int = 1
     
+    /// set annotation position
+    @IBInspectable public var annotationPositionOnTop: Bool = true
+    
     // MARK: - Initialization
     
     override init(frame: CGRect) {

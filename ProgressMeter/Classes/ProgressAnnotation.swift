@@ -12,7 +12,7 @@ import UIKit
 class ProgressAnnotation: UIView {
     
     // MARK: - Properties
-    
+
     private let label = UILabel()
     private let divider = UIView()
     private weak var parentView: ProgressMeter?
@@ -130,9 +130,14 @@ class ProgressAnnotation: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         
         let lblCenter = label.centerXAnchor.constraint(equalTo: self.centerXAnchor)
-        let lblTop = label.topAnchor.constraint(equalTo: self.topAnchor)
+        var lblAnchor = label.topAnchor.constraint(equalTo: self.topAnchor, constant: -2.0)
+        
+        if !superView.annotationPositionOnTop {
+            lblAnchor = label.topAnchor.constraint(equalTo: superView.progressViewBottomAnchor, constant: 4.0)
+        }
+        
         NSLayoutConstraint.activate([
-            lblTop,
+            lblAnchor,
             lblCenter
         ])
     }
