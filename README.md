@@ -7,18 +7,18 @@
 [![Platform](https://img.shields.io/cocoapods/p/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
 
 ## Description
-Displaying the progress in a meter like control. `ProgressMeter` lets you create your custom annotations that display above the meter. So, it's not just an ordinary progress bar, it gives the better visual when chasing a target. 💯
+Displaying the progress in a meter control. `ProgressMeter` lets you create your custom annotations that display either on top or bottom of meter. So, it's not just an ordinary progress bar, it gives the better visual. 💯
 
 ## Use Cases
 
 ### Fitness App 🏃‍
 Building a pedometer has never been easier. If you are looking for something other than a gauge control, you have come to the right place. Have a look 🤓
-<p align="center"><img src ="screens/steps_example.png" width="300px"/></p>
+<p align="center"><img src ="https://github.com/khawajafarooq/screens/steps_example.png" width="300px"/></p>
 
 
 ### Banking App 🏦
 Talking about financial apps. We all 've come across with such scenarios to show the rewards earned or a cash back. `ProgressMeter` is here to help with a unique user experience. 🏧
-<p align="center"><img src ="screens/cash_example.png" width="300px"/></p>
+<p align="center"><img src ="https://github.com/khawajafarooq/screens/cash_example.png" width="300px"/></p>
 
 ## Example
 
@@ -29,7 +29,7 @@ Drag & drop a UIView from the object library and follow the steps:
 
 **Step 1:**
 Set the Class & Module **Identity Inspector > Custom Class**
-<p align="left"><img src ="screens/ib_step1.png" width="300px"/></p>
+<p align="left"><img src ="https://github.com/khawajafarooq/screens/ib_step1.png" width="300px"/></p>
 
 **Step 2:**
 Under **Attribute Inspector** you can change the properties and check everything on the fly 🚀
@@ -39,7 +39,7 @@ Under **Attribute Inspector** you can change the properties and check everything
 * numberOfDivisions: How many divisions you want to display
 * Rest are pretty much self explanatory
 
-<p align="left"><img src ="screens/ib_step2.png" width="300px"/></p>
+<p align="left"><img src ="https://github.com/khawajafarooq/screens/ib_step2.png" width="300px"/></p>
 
 ### Code 👨‍💻
 
@@ -107,7 +107,7 @@ Run `carthage update` to build the framework and drag the built `ProgressMeter.f
 
 ## Up Coming Features 🎏
 - [x] Carthage support
-- [ ] Annotations on the bottom; Currenty annotations can only display on the top
+- [x] Display Annotations either on top or bottom
 
 ## Issues 🚫
 - [ ] Some tweakings required to use `ProgressMeter` inside a Stack View
