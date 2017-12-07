@@ -2,6 +2,7 @@
 [![CI Status](https://travis-ci.org/khawajafarooq/ProgressMeter.svg?style=svg)](https://travis-ci.org/khawajafarooq/ProgressMeter)
 [![Swift 4.0](https://img.shields.io/badge/swift-4.0-red.svg?style=flat)](https://developer.apple.com/swift)
 [![Version](https://img.shields.io/cocoapods/v/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
 [![Platform](https://img.shields.io/cocoapods/p/ProgressMeter.svg?style=flat)](http://cocoapods.org/pods/ProgressMeter)
 
@@ -77,12 +78,25 @@ func visualSetup() {
 ```
 ## Installation
 
+### CocoaPods
 `ProgressMeter` is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'ProgressMeter'
 ```
+
+
+### Carthage
+To integrate `ProgressMeter` into your Xcode project using Carthage, specify the following in your `Cartfile`:
+
+```ogdl
+github "khawajafarooq/ProgressMeter"
+```
+
+Run `carthage update` to build the framework and drag the built `ProgressMeter.framework` into your Xcode project.
+
+---
 
 ## Requirements
 
@@ -92,7 +106,7 @@ pod 'ProgressMeter'
 | Swift | 4.0 |
 
 ## Up Coming Features 🎏
-- [ ] Carthage support
+- [x] Carthage support
 - [ ] Annotations on the bottom; Currenty annotations can only display on the top
 
 ## Issues 🚫
